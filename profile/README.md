@@ -94,7 +94,7 @@ La aplicación Angular centraliza las funcionalidades de los microservicios, ofr
 ### Pasos para Frontend
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/organizacion/frontend.git
+git clone https://github.com/Space-Station-X/frontend.git
 ```
 2. Instalar dependencias:
 ```bash
