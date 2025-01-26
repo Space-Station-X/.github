@@ -36,12 +36,12 @@ La solución se basa en una arquitectura de microservicios con las siguientes ca
 - **Lombok** (reducción de código boilerplate)
 
 ### Frontend:
-- **Angular** (estructura modular y reutilizable)
-- **Angular Material** (diseño)
-- **RxJS** (manejo de eventos asíncronos)
+- **Angular** 
+- **Angular Material**
+- **RxJS** 
 
 ### Infraestructura:
-- **Sprint Cloud ** (orquestación de contenedores, si aplica)
+- Sprint Cloud 
 
 ## Microservicios
 1. **Microservice-Users:**
