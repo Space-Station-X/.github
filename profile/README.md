@@ -1,4 +1,4 @@
-# Proyecto de Ventas de Videojuegos 🎮👾
+# Space-Station X 🎮👾
 
 Este proyecto consiste en un sistema de ventas de videojuegos desarrollado con una arquitectura de microservicios en **Spring Boot** para el backend y **Angular** para el frontend. El objetivo principal es ofrecer un sistema modular, escalable y sencillo para la administración de videojuegos, clientes, ventas y usuarios.
 
