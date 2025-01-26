@@ -80,10 +80,11 @@ La aplicación Angular centraliza las funcionalidades de los microservicios, ofr
 ### Pasos para Backend
 1. Clonar los repositorios:
    ```bash
-   git clone https://github.com/organizacion/microservice-users.git
-   git clone https://github.com/organizacion/microservice-client.git
-   git clone https://github.com/organizacion/microservice-product.git
-   git clone https://github.com/organizacion/microservice-sales.git
+   git clone https://github.com/Space-Station-X/microservice-users.git
+   git clone https://github.com/Space-Station-X/microservice-client.git
+   git clone https://github.com/Space-Station-X/microservice-product.git
+   git clone https://github.com/Space-Station-X/microservice-sales.git
+   git clone https://github.com/Space-Station-X/microservice-gateway.git
    ```   
 2. Configurar las bases de datos y variables de entorno.
 3. Ejecutar los microservicios con:
