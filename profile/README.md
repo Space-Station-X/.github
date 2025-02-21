@@ -37,7 +37,7 @@ La solución se basa en una arquitectura de microservicios con las siguientes ca
 
 ### Frontend:
 - **Angular** 
-- **Angular Material**
+- **Bootstrap**
 - **RxJS** 
 
 ### Infraestructura:
@@ -85,6 +85,8 @@ La aplicación Angular centraliza las funcionalidades de los microservicios, ofr
    git clone https://github.com/Space-Station-X/microservice-product.git
    git clone https://github.com/Space-Station-X/microservice-sales.git
    git clone https://github.com/Space-Station-X/microservice-gateway.git
+   git clone https://github.com/Space-Station-X/microservice-security.git
+   git clone https://github.com/Space-Station-X/eureka-server.git
    ```   
 2. Configurar las bases de datos y variables de entorno.
 3. Ejecutar los microservicios con:
