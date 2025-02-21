@@ -34,6 +34,9 @@ La solución se basa en una arquitectura de microservicios con las siguientes ca
 - **Java** (Spring Boot, Spring Data, Spring Security)
 - **MySQL** (bases de datos)
 - **Lombok** (reducción de código boilerplate)
+- **Resilience4j**
+- **Mappers**
+- **Web Client**
 
 ### Frontend:
 - **Angular** 
