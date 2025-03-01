@@ -51,21 +51,31 @@ La solución se basa en una arquitectura de microservicios con las siguientes ca
    - Gestión de usuarios.
    - Endpoints: registro, login, CRUD de perfiles.
    - Base de datos: Usuarios.
+   - [Swagger](https://yearling-eulalie-hiroshysystems01-2f7d912d.koyeb.app)
 
 2. **Microservice-Client:**
    - Gestión de clientes.
    - Endpoints: CRUD de clientes.
    - Base de datos: Clientes.
+   - [Swagger](https://fatal-felicity-lourdes-74626af5.koyeb.app)
 
 3. **Microservice-Product:**
    - Gestión de videojuegos.
    - Endpoints: CRUD de productos, búsqueda por categorías.
    - Base de datos: Videojuegos.
+   - [Swagger](https://grand-dora-hiroshyusa-4ec6d307.koyeb.app)
 
 4. **Microservice-Sales:**
    - Gestión de ventas.
    - Endpoints: Registro de ventas, estadísticas.
    - Base de datos: Transacciones.
+   - [Swagger](https://technical-loise-hiroshysystems-3d94600c.koyeb.app)
+     
+5. **Microservice-Security:**
+   - Gestión de Autenticaciones.
+   - Endpoints: Registro de Login.
+   - Base de datos: Transacciones.
+   - [Swagger](https://biological-natalee-raydberg25-4c59dc23.koyeb.app)
 
 ## Frontend
 La aplicación Angular centraliza las funcionalidades de los microservicios, ofreciendo:
