@@ -47,31 +47,36 @@ La solución se basa en una arquitectura de microservicios con las siguientes ca
 - Sprint Cloud 
 
 ## Microservicios
-1. **Microservice-Users:**
+1. **Eureka Netflix:**
+   - Gestión de usuarios.
+   - Endpoints: registro, login, CRUD de perfiles.
+   - Base de datos: Usuarios.
+   - [Eureka](https://eureka-server-7ls8.onrender.com/)
+2. **Microservice-Users:**
    - Gestión de usuarios.
    - Endpoints: registro, login, CRUD de perfiles.
    - Base de datos: Usuarios.
    - [Swagger](https://yearling-eulalie-hiroshysystems01-2f7d912d.koyeb.app)
 
-2. **Microservice-Client:**
+3. **Microservice-Client:**
    - Gestión de clientes.
    - Endpoints: CRUD de clientes.
    - Base de datos: Clientes.
    - [Swagger](https://fatal-felicity-lourdes-74626af5.koyeb.app)
 
-3. **Microservice-Product:**
+4. **Microservice-Product:**
    - Gestión de videojuegos.
    - Endpoints: CRUD de productos, búsqueda por categorías.
    - Base de datos: Videojuegos.
    - [Swagger](https://grand-dora-hiroshyusa-4ec6d307.koyeb.app)
 
-4. **Microservice-Sales:**
+5. **Microservice-Sales:**
    - Gestión de ventas.
    - Endpoints: Registro de ventas, estadísticas.
    - Base de datos: Transacciones.
    - [Swagger](https://technical-loise-hiroshysystems-3d94600c.koyeb.app)
      
-5. **Microservice-Security:**
+6. **Microservice-Security:**
    - Gestión de Autenticaciones.
    - Endpoints: Registro de Login.
    - Base de datos: Transacciones.
