@@ -52,7 +52,7 @@ La solución se basa en una arquitectura de microservicios, la cual permite:
 
 > **Diagrama de Arquitectura:**  
 > ![Arquitectura](https://via.placeholder.com/600x300)  
-> *(Reemplaza esta imagen por el diagrama real del proyecto)*
+> ![Arquitectura](./public/Arquitectura.png)
 
 ---
 
@@ -214,7 +214,7 @@ Para automatizar la construcción y despliegue del proyecto, se ha implementado 
   - Login en Docker Hub, construcción y push de la imagen Docker.
   - Despliegue automático en servicios como Render y Koyeb mediante hooks y redeploys.
 
-> **Nota:** Consulta los archivos de workflow en el repositorio para más detalles sobre la configuración exacta.
+> ![Arquitectura](./public/CI_CD%20(1).png)
 
 ---
 
