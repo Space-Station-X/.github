@@ -8,9 +8,6 @@ Claro, aquí tienes el contenido mejorado y en formato Markdown:
 
 Space-Station X es una plataforma modular y escalable para la administración de videojuegos, clientes, ventas y usuarios. Desarrollada con una arquitectura de microservicios utilizando **Spring Boot** para el backend y **Angular** para el frontend, el proyecto ofrece una solución robusta y segura para el comercio digital.
 
-> **Nota:** Puedes incluir aquí el logo del proyecto, por ejemplo:  
-> ![Logo](https://via.placeholder.com/150)
-
 ---
 
 ## Tabla de Contenidos
@@ -227,21 +224,3 @@ Para automatizar la construcción y despliegue del proyecto, se ha implementado 
 4. **Código de Conducta:** Por favor, respeta el Código de Conducta del proyecto.
 
 ---
-
-## 10. Licencia y Créditos
-
-### Licencia:
-Este proyecto se distribuye bajo la [Licencia MIT](LICENSE).
-
-### Créditos:
-Agradecimientos especiales a todas las personas, herramientas y recursos que han contribuido al desarrollo de Space-Station X.
-
----
-
-## 11. Contacto y Soporte
-
-### Reportar Problemas:
-Abre un [issue en GitHub](https://github.com/Space-Station-X/.github/issues) para reportar errores o solicitar mejoras.
-
-### Comunidad:
-Únete a nuestro canal de Slack/Discord (enlace pendiente) para conversar, resolver dudas y compartir ideas.
