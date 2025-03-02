@@ -78,29 +78,67 @@ La solución se basa en una arquitectura de microservicios, la cual permite:
 ## 5. Microservicios
 Cada microservicio se encarga de un dominio específico:
 
-1. **Eureka Netflix:**  
-   - Gestión de usuarios y descubrimiento de servicios.  
-   - [Ver servicio](https://eureka-server-7ls8.onrender.com/)
+#### Eureka Netflix
+- **Funcionalidad:**  
+  - Gestión centralizada de usuarios y servicios.  
+  - Descubrimiento de servicios: Permite que otros microservicios se registren y se descubran dinámicamente.
+- **Uso:**  
+  - Proporciona endpoints para registrar y monitorizar la disponibilidad de los microservicios.
+  - Facilita la escalabilidad al permitir que nuevos servicios se integren sin necesidad de reconfiguración manual.
+- **Enlace:**  
+  - [Ver servicio](https://eureka-server-7ls8.onrender.com/)
 
-2. **Microservice-Users:**  
-   - Gestión de usuarios (registro, login, CRUD de perfiles).  
-   - [Swagger](https://yearling-eulalie-hiroshysystems01-2f7d912d.koyeb.app)
+#### Microservice-Users
+- **Funcionalidad:**  
+  - Gestión integral de usuarios: registro, login, actualización y eliminación de perfiles.
+  - Implementación de seguridad mediante Spring Security para proteger las rutas y gestionar permisos.
+- **Uso:**  
+  - Endpoints REST para la manipulación de datos de usuario.
+  - Se integra con JWT para la autenticación y autorización.
+- **Documentación:**  
+  - [Swagger](https://yearling-eulalie-hiroshysystems01-2f7d912d.koyeb.app)  
+  - Permite probar y validar la API de manera interactiva.
 
-3. **Microservice-Client:**  
-   - Administración de clientes.  
-   - [Swagger](https://fatal-felicity-lourdes-74626af5.koyeb.app)
+#### Microservice-Client
+- **Funcionalidad:**  
+  - Administración y gestión de clientes.
+  - Permite operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para la información de clientes.
+- **Uso:**  
+  - Asegura la integridad y consistencia de los datos de clientes a través de una base de datos dedicada.
+  - Facilita la integración con otros microservicios que necesiten acceder a la información de clientes.
+- **Documentación:**  
+  - [Swagger](https://fatal-felicity-lourdes-74626af5.koyeb.app)
 
-4. **Microservice-Product:**  
-   - Gestión de videojuegos (CRUD, búsqueda por categorías).  
-   - [Swagger](https://grand-dora-hiroshyusa-4ec6d307.koyeb.app)
+#### Microservice-Product
+- **Funcionalidad:**  
+  - Gestión del catálogo de videojuegos: creación, modificación, eliminación y consulta de productos.
+  - Implementa funcionalidades de búsqueda avanzada, permitiendo filtrar productos por categorías u otros criterios.
+- **Uso:**  
+  - Incluye validaciones robustas para garantizar la integridad de los datos.
+  - Maneja operaciones de inventario y actualizaciones en tiempo real.
+- **Documentación:**  
+  - [Swagger](https://grand-dora-hiroshyusa-4ec6d307.koyeb.app)
 
-5. **Microservice-Sales:**  
-   - Registro de ventas y estadísticas.  
-   - [Swagger](https://technical-loise-hiroshysystems-3d94600c.koyeb.app)
+#### Microservice-Sales
+- **Funcionalidad:**  
+  - Registro y seguimiento de ventas.  
+  - Proporciona herramientas para generar estadísticas y reportes de transacciones.
+- **Uso:**  
+  - Utiliza una base de datos independiente para almacenar el historial de transacciones y garantizar el rendimiento.
+  - Permite el análisis en tiempo real para tomar decisiones basadas en datos de ventas.
+- **Documentación:**  
+  - [Swagger](https://technical-loise-hiroshysystems-3d94600c.koyeb.app)
 
-6. **Microservice-Security:**  
-   - Gestión de autenticaciones y autorizaciones.  
-   - [Swagger](https://biological-natalee-raydberg25-4c59dc23.koyeb.app)
+#### Microservice-Security
+- **Funcionalidad:**  
+  - Gestión de autenticaciones y autorizaciones para asegurar el acceso a todos los microservicios.
+  - Implementa mecanismos de seguridad basados en JWT para controlar y validar el acceso a los endpoints.
+- **Uso:**  
+  - Centraliza la verificación de credenciales y la emisión de tokens de acceso.
+  - Se encarga de proteger los recursos sensibles del sistema.
+- **Documentación:**  
+  - [Swagger](https://biological-natalee-raydberg25-4c59dc23.koyeb.app)
+
 
 ---
 
