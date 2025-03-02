@@ -20,8 +20,6 @@ Space-Station X es una plataforma modular y escalable para la administración de
 7. [Instalación y Configuración](#7-instalación-y-configuración)
 8. [Integración Continua (CI/CD)](#8-integración-continua-cicd)
 9. [Contribución](#9-contribución)
-10. [Licencia y Créditos](#10-licencia-y-créditos)
-11. [Contacto y Soporte](#11-contacto-y-soporte)
 
 ---
 
