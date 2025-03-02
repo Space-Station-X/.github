@@ -173,12 +173,6 @@ La aplicación Angular centraliza las funcionalidades de todos los microservicio
    ./mvnw spring-boot:run
    ```
 
-4. **(Opcional) Docker Compose:**
-   Si cuentas con un archivo `docker-compose.yml`:
-   ```bash
-   docker-compose up --build
-   ```
-
 ### Pasos para el Frontend
 1. **Clonar el Repositorio:**
    ```bash
