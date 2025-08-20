@@ -1,4 +1,3 @@
-Claro, aquí tienes el contenido mejorado y en formato Markdown:
 
 # Space-Station X 🎮👾
 
